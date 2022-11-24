@@ -1,0 +1,60 @@
+html, body {
+  width: 50%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*Bakgrunn*/
+body {
+  background-image: url('Bakgrunn.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Box {
+  width: 360px;
+}
+
+
+#Overskrift {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #0084ff;
+  text-align: center;
+}
+
+#inputFielt {
+  width: 300px;
+  height: 46px;
+  border-width: 0;
+  border: 3px solid #0084ff;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+#LeggTilKnapp {
+  height: 50px;
+  width: 50px;
+  border: 3px solid #0084ff;
+  vertical-align: middle;
+  font-size: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.Task {
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  user-select: none;
+}
+
+.to-dos {
+  margin-top: 25px;
+}
